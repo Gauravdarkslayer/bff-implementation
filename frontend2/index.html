@@ -1,0 +1,20 @@
+<!-- frontend2.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Frontend 2 - XML</title>
+</head>
+<body>
+  <h1>Data from BFF 2 (XML)</h1>
+  <pre id="data"></pre>
+
+  <script>
+    fetch('http://localhost:3002/data')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('data').textContent = data;
+      })
+      .catch(err => console.error(err));
+  </script>
+</body>
+</html>

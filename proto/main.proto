@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package main;
+
+service DataService {
+  rpc GetData (Empty) returns (DataResponse) {}
+}
+
+message Empty {}
+
+message DataResponse {
+  string message = 1;
+  int32 value = 2;
+}
