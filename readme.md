@@ -16,4 +16,4 @@
 ```
 
 Infrastructure Architecture
-![Infrastructure Architecture Diagram](image.png)
+![Infrastructure Architecture Diagram](images/image-1.png)
