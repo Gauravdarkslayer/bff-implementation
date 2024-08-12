@@ -1,3 +1,5 @@
+Detailed Article: [Comprehensive Guide On BFF](https://www.linkedin.com/pulse/backend-for-frontend-bff-pattern-comprehensive-guide-gaurav-bhojwani-29uuc/?trackingId=VKYBYteZRg%2BvP0QLF7FwtQ%3D%3D)
+
 ```
 .
 └── BFFs/
